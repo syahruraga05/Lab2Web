@@ -27,7 +27,8 @@
 * Save kembali untuk melihat hasilnya pada browser.
 ![Img](/Img/Capture5.PNG)</br>
 ### **Langkah 4**
-* Buatlah file baru kemudian membuat deklarasi CSS seperti berikut.
+* Buatlah file baru kemudian membuat deklarasi CSS Eksternal
+seperti berikut.
 ![Img](/Img/Capture6.PNG)
 * Kemudian tambahkan tag `<link>` untuk merujuk file css yg sudah dibuat pada bagian `<head>`
 ```
@@ -36,10 +37,34 @@
     <link rel="stylesheet" href="style_eksternal.css" type="text/css">
   </head>
 ```
-* Lalu save kemudian save kembali untuk melihat hasilnya pada browser.
+* kemudian save kembali untuk melihat hasilnya pada browser.
 ![Img](/Img/Capture7.PNG)</br>
 ### **Langkah 5**
 * Lalu tambahkan CSS selector menggunakan Id dan Class Selector. Pada file CSS, Tambahkan kode berikut.
 ![Img](/Img/Capture8.PNG)
 * Kemudian save kembali untuk melihat hasilnya pada browser.
 ![Img](/Img/Capture9.PNG)
+</br>
+
+## **Jawaban Pertanyaan**
+1. Saya melakukan beberapa perubahan, dah hasilnya seperti ini.
+![Img](/Img/Capture10.PNG)</br>
+2. * Elemen ` h1{...}`
+    Jika hanya menggunakan elemen ini maka akan merubah semua yang ada pada elemen h1.
+    * Elemen `intor #h1{...} `
+    Jika menggunakan elemen ini maka hanya akan merubah yang memiliki tag intro.</br>
+3. Menurut saya setelah mencobanya yg akan muncul pada browser adalah yg lebih spesifik makan prioritasnya tinggi untuk muncul di browser.
+**Contoh :**
+Ini adalah source code pada html yg terdapat 2 jenis css yg memiliki elemen yg sama h1:
+![Img](/Img/Capture11.PNG)
+Dan ini adalah css eksternal :
+![Img](/Img/Capture12.PNG).
+Ini hasilnya setelah ditampilkan di browser
+![Img](/Img/Capture13.PNG) </br>
+4. Setelah saya mencobanya ketika keduanya terdapat deklarasi CSS, yg muncul ketika ditampilkan di browser adalah ``ID``, Menurut saya mungkin karena ``ID`` adalah selector untuk menentukan bagian yang hanya ada satu pada halaman, sedangkan ``Class`` bisa dipanggil berkali-kali pada satu halaman.
+**Contoh :**
+Ini adalah source code nya :
+![Img](/Img/Capture14.PNG)
+Dan ini adalah hasilnya :
+![Img](/Img/Capture15.PNG)
+
