@@ -62,7 +62,7 @@ Dan ini adalah css eksternal :
 Ini hasilnya setelah ditampilkan di browser
 ![Img](/Img/Capture13.PNG) </br>
 4. Setelah saya mencobanya ketika keduanya terdapat deklarasi CSS, yg muncul ketika ditampilkan di browser adalah ``ID``, Menurut saya mungkin karena ``ID`` adalah selector untuk menentukan bagian yang hanya ada satu pada halaman, sedangkan ``Class`` bisa dipanggil berkali-kali pada satu halaman.</br>
-**Contoh :**
+**Contoh :** </br>
 Ini adalah source code nya :
 ![Img](/Img/Capture14.PNG)
 Dan ini adalah hasilnya :
