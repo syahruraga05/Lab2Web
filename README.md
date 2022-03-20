@@ -17,18 +17,21 @@
 * Lalu buka browser untuk melihat hasilnya.
 ![Img](/Img/Capture2.PNG)
 </br>
+
 ### **Langkah 2**
 * Tambahkah CSS seperti berikut pada bagian head dokumen.
 ![Img](/Img/Capture3.PNG)
 * Lalu save perubahannya, dan lakukan refresh pada browser untuk melihat hasilnya.
 ![Img](/Img/Capture4.PNG)
 </br>
+
 ### **Langkah 3**
 * Kemudian tambahkan deklarasi inline CSS pada tag `<p>` seperti berikut.</br>
 ``` <p style="text-align: center; color: #ccd8e4;"> ``` <br/>
 * Save kembali untuk melihat hasilnya pada browser.
 ![Img](/Img/Capture5.PNG)
 </br>
+
 ### **Langkah 4**
 * Buatlah file baru kemudian membuat deklarasi CSS seperti berikut.
 ![Img](/Img/Capture6.PNG)
@@ -42,6 +45,7 @@
 * Lalu save kemudian save kembali untuk melihat hasilnya pada browser.
 ![Img](/Img/Capture7.PNG)
 </br>
+
 ### **Langkah 5**
 * Lalu tambahkan CSS selector menggunakan Id dan Class Selector. Pada file CSS, Tambahkan kode berikut.
 ![Img](/Img/Capture8.PNG)
