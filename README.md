@@ -47,13 +47,19 @@ seperti berikut.
 </br>
 
 ## **Jawaban Pertanyaan**
-1. Saya melakukan beberapa perubahan, dah hasilnya seperti ini.
+### **1.** 
+Saya melakukan beberapa perubahan, dah hasilnya seperti ini.
 ![Img](/Img/Capture10.PNG)</br>
-2. * Elemen ` h1{...}`
-    Jika hanya menggunakan elemen ini maka akan merubah semua yang ada pada elemen h1.
-    * Elemen `intor #h1{...} `
-    Jika menggunakan elemen ini maka hanya akan merubah yang memiliki tag intro.</br>
-3. Menurut saya setelah mencobanya yg akan muncul pada browser adalah yg lebih spesifik makan prioritasnya tinggi untuk muncul di browser.
+
+### **2.** 
+* Elemen ` h1{...}`
+  Jika hanya menggunakan elemen ini maka akan merubah semua yang ada pada elemen h1.
+* Elemen `intor #h1{...} `
+    Jika menggunakan elemen ini maka hanya akan merubah yang memiliki tag intro.
+</br>
+
+### **3.** 
+Menurut saya setelah mencobanya yg akan muncul pada browser adalah yg lebih spesifik makan prioritasnya tinggi untuk muncul di browser.
 **Contoh :**
 Ini adalah source code pada html yg terdapat 2 jenis css yg memiliki elemen yg sama h1:
 ![Img](/Img/Capture11.PNG)
@@ -61,7 +67,8 @@ Dan ini adalah css eksternal :
 ![Img](/Img/Capture12.PNG).
 Ini hasilnya setelah ditampilkan di browser
 ![Img](/Img/Capture13.PNG) </br>
-4. Setelah saya mencobanya ketika keduanya terdapat deklarasi CSS, yg muncul ketika ditampilkan di browser adalah ``ID``, Menurut saya mungkin karena ``ID`` adalah selector untuk menentukan bagian yang hanya ada satu pada halaman, sedangkan ``Class`` bisa dipanggil berkali-kali pada satu halaman.</br>
+### **4.**
+Setelah saya mencobanya ketika keduanya terdapat deklarasi CSS, yg muncul ketika ditampilkan di browser adalah ``ID``, Menurut saya mungkin karena ``ID`` adalah selector untuk menentukan bagian yang hanya ada satu pada halaman, sedangkan ``Class`` bisa dipanggil berkali-kali pada satu halaman.</br>
 **Contoh :** </br>
 Ini adalah source code nya :
 ![Img](/Img/Capture14.PNG)
